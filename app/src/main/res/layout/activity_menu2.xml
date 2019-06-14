@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9A825"
+    android:orientation="vertical"
+    tools:context=".Main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEGO HOUSE"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="202dp"
+        android:text="Facilities"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="355dp"
+        android:text="Order Now"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="505dp"
+        android:text="Special Dishes"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="640dp"
+        android:text="Contact Us"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="415dp"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="117dp"
+        android:layout_marginRight="-4dp"
+        android:src="@drawable/lego1" />
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="415dp"
+        android:layout_height="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="549dp"
+        android:layout_marginRight="-4dp"
+        android:src="@drawable/lego4" />
+
+    <ImageButton
+        android:id="@+id/btn4"
+        android:layout_width="406dp"
+        android:layout_height="111dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="402dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/lego3" />
+
+    <ImageButton
+        android:id="@+id/searchImageButton"
+        android:layout_width="410dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="254dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/lego2" />
+
+
+</RelativeLayout>
